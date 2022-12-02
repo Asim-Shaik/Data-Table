@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html,
+body,
+#root,
+.App,
+#mapId {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.box {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+}
